@@ -2,6 +2,9 @@ language: scala
 scala:
 - 2.11.12
 sudo: false
+arch:
+- amd64
+- arm64
 jdk:
 - openjdk8
 env:
